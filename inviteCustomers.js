@@ -12,7 +12,7 @@ var maxDistanceFromOffice = 100;
 var customersToInvite = [];
 
 function inviteCustomers(filePath, callback) {
-    //Bag is the object to which the functions readFile and validateJsonFile
+    //Bag is the object to which the functions readFile and validateJsonFile add their computations to. 
     var bag = {};
 
     //read the input json file.
