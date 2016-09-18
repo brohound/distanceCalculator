@@ -1,7 +1,7 @@
 var inviteCustomers = require('./../inviteCustomers.js');
 
 console.log('Testing for a invalidJson format');
-var path = './../data/invalidJson1.json';
+var path = './data/invalidJson1.json';
 inviteCustomers(path,
     function(err) {
         if (err)
@@ -12,7 +12,7 @@ inviteCustomers(path,
 );
 
 console.log('\nTesting for a case where customers don\'t have all the necessary fields');
-var path = './../data/missingFields.json';
+var path = './data/missingFields.json';
 inviteCustomers(path,
     function(err) {
         if (err)
@@ -23,7 +23,7 @@ inviteCustomers(path,
 );
 
 console.log('\nTesting for a happy case');
-var path = './../data/customers.json';
+var path = './data/customers.json';
 inviteCustomers(path,
     function(err) {
         if (err)
