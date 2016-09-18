@@ -1,4 +1,4 @@
-# distanceCalculator
+# inviteCustomers
 ===
 This goal of this project is to read the full list of customers (supplied in a json format,
 see the data directory for examples) and output the names and user ids of matching customers (within 100km), 
