@@ -8,7 +8,7 @@ sorted by User ID (ascending).
 === 
 git clone https://github.com/brohound/inviteCustomers
 
-cd distanceCalculator 
+cd inviteCustomers 
 
 npm install (This projects uses a package called underscore to do some basic operations)
 
