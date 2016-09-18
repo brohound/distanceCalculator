@@ -6,7 +6,7 @@ sorted by User ID (ascending).
 
 # Setup
 === 
-git clone https://github.com/brohound/distanceCalculator
+git clone https://github.com/brohound/inviteCustomers
 
 cd distanceCalculator 
 
@@ -14,4 +14,5 @@ npm install (This projects uses a package called underscore to do some basic ope
 
 # Testing
 ===
-Please add your testcase to tests directory. Please look at tests/testInviteCustomers.js for an example. 
+Please add your testcase to tests directory. Please look at tests/testInviteCustomers.js for an example.
+To execute a testcase, please run node tests/<fileName>.js
