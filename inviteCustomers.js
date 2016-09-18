@@ -53,4 +53,6 @@ function inviteCustomers(filePath, callback) {
             console.log(customer.name + " " + customer.user_id);
         }
     );
+
+    return callback();
 }
