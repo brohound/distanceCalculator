@@ -18,4 +18,8 @@ Please add your testcase to tests directory.
 
 Please look at tests/testInviteCustomers.js for an example.
 
-To execute a testcase, please run node tests/<fileName>.js
+To execute a testcase, please run node tests/fileName.js
+
+For eg, node tests/testInviteCustomers.js
+
+(note: The above command should be run from the project's root directory).
