@@ -1,7 +1,7 @@
 var readFile = require('./../readFile.js');
 
-//Testing for a case where file path is incorrect.
-var path = './data/abcd.json';
+console.log('Testing for a case where file path is incorrect.');
+var path = './../data/abcd.json';
 readFile(path,
     function(err) {
         if (err)
@@ -11,8 +11,8 @@ readFile(path,
     }
 );
 
-//Testing for a happy case
-var path = './data/customers.json';
+console.log('\nTesting for a happy case');
+var path = './../data/customers.json';
 readFile(path,
     function(err) {
         if (err)
